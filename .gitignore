@@ -1,0 +1,22 @@
+.env
+.env.*
+!.env.example
+
+# Database backups
+microservices/database-files.zip
+microservices-backup/
+**/mysql_data/
+
+# Secrets and private keys
+*.pem
+*.key
+id_rsa
+id_ed25519
+secrets/
+
+# Generated files
+vendor/
+node_modules/
+.DS_Store
+
+microservices/docker-compose.yml

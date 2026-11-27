@@ -1,0 +1,21 @@
+.env
+.env.*
+!.env.example
+
+# Database files
+mysql_data/
+**/mysql_data/
+*.sql.gz
+*.dump
+
+# Secrets and SSH keys
+*.pem
+*.key
+id_rsa
+id_ed25519
+secrets/
+
+# Dependencies and generated files
+vendor/
+node_modules/
+.DS_Store
